@@ -1,0 +1,433 @@
+	@font-face {
+
+		font-family: "joseph";
+		src:  url(fonts/joseph.ttf);
+		
+		}
+
+
+.orangeBackground{
+
+background: #EBDED3;
+/*e53700*/
+height: 50px;
+width: 100%;
+
+}
+
+
+
+#headerImage {
+
+	position: relative;
+margin-left: 19%;
+	width: 1000px;
+
+
+}
+
+
+#headerImage2 {
+
+	position: relative;
+margin-left: 30%;
+	width: 680px;
+
+
+}
+ 
+
+#heroBanner {
+
+
+background: #C9AB85;
+height: 200px;
+width: 100%;
+
+
+
+
+}
+
+
+
+#heroText {
+
+font-family: joseph;
+font-size: 30px;
+color: lightgoldenrodyellow;
+position: relative;
+width: 20%;
+left: 20%;
+top: 30px;
+
+
+}
+
+
+
+#discount {
+
+position: relative;
+height: 90px;
+top: 42px;
+left: 20%;
+
+}
+
+
+
+
+#blackBanner {
+
+position: relative;
+background: black;
+height: 50px;
+width: 80%;
+left: 10%;
+top: 10px;
+
+
+}
+
+#lightning {
+
+font-family: helvetica;
+font-style: oblique;
+font-weight: bold;
+font-size: 16px;
+
+position: relative;
+color: white;
+display: inline-block;
+margin-left: 36%;
+width: 130px;
+margin-top: 15px;
+
+}
+
+#limitedTime {
+
+position: relative;
+font-family: helvetica;
+font-size: 12px;
+
+color: white;
+display: inline-block;
+margin-left: 50px;
+width: 130px;
+margin-top: 15px;
+
+}
+
+.bottomcontent {
+
+	width: 80%;
+	height: 360px;
+	margin-left: 21%;
+
+
+}
+
+
+
+#drone{
+
+height: 200px;
+
+
+}
+
+#title {
+
+	font-family: helvetica;
+	font-size: 12px;
+
+}
+
+#price{
+
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	color:#e53700;
+
+
+}
+
+.inside{
+
+display: inline-block;
+padding: 10px;
+margin-left: 10px;
+
+}
+
+
+
+
+.colourcontent {
+
+	width: 80%;
+	height: 309px;
+	margin-left: 19%;
+
+
+}
+
+#colour {
+
+height: 240px;
+margin-left: 18px;
+
+
+}
+
+#title2 {
+
+	font-family: helvetica;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	margin-left: 62px;
+
+
+
+	top: -219px;
+
+
+}
+
+#title3 {
+
+	font-family: helvetica;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	margin-left: 120px;
+
+
+
+	top: -219px;
+
+
+}
+
+#title4 {
+
+	font-family: helvetica;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	margin-left: 109px;
+
+
+
+	top: -219px;
+
+
+}
+
+#midtitle {
+
+	font-family: helvetica;
+	color: white;
+
+	font-size: 12px;
+	position: relative;
+	margin-left: 146px;
+
+
+
+	top: -216px;
+
+
+}
+
+#midtitle2 {
+
+	font-family: helvetica;
+	color: white;
+
+	font-size: 12px;
+	position: relative;
+	margin-left: 135px;
+
+
+
+	top: -216px;
+
+
+}
+
+#price2 {
+
+	font-family: helvetica;
+	color: white;
+	font-weight: bold;
+	font-size: 43px;
+	position: relative;
+	margin-left: 58px;
+
+
+
+	top: -243px;
+
+
+}
+
+#price3 {
+
+	font-family: helvetica;
+	color: white;
+	font-weight: bold;
+	font-size: 43px;
+	position: relative;
+	margin-left: 45px;
+
+
+
+	top: -243px;
+
+
+}
+
+#price4 {
+
+	font-family: helvetica;
+	color: white;
+	font-weight: bold;
+	font-size: 43px;
+	position: relative;
+	margin-left: 60px;
+
+
+
+	top: -243px;
+
+
+}
+
+.block{
+
+display: inline-block;
+
+
+}
+
+#button {
+
+	width: 120px;
+	position: relative;
+	margin-left: 105px;
+    top: -267px;
+}
+
+
+
+.block2 {
+
+background: lightblue;
+width: 485px;
+height: 259px;
+
+display: inline-block;
+}
+
+.block3 {
+
+background: darkred;
+width: 485px;
+height: 259px;
+
+display: inline-block;
+}
+
+
+.colourcontent2 {
+
+	width: 80%;
+	height: 264px;
+	margin-left: 20%;
+
+
+}
+
+#AAAA{
+
+	font-family: helvetica;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+#BBB {
+
+	width: 483px;
+}
+
+
+
+#fallTitle{
+
+
+	font-family: joseph;
+	font-size: 50px;
+	color: darkred ;
+
+	position: relative;
+	margin-left: 38%;
+	
+}
+
+#fallTitle2{
+
+
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	margin-left: 38%;
+
+	
+
+	position: relative;
+	top: -45px ;
+}
+
+#seeMore {
+	
+
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+    position: relative;
+    top: 8px;
+
+}
+
+#seeButton{
+
+	background: #e53700;
+    width: 241px;
+    height: 40px;
+    border-radius: 25px;
+	margin-left: 41%;
+}
+
+
+#footer{
+
+	margin: 0;
+    padding: 0;
+	width: 100%;
+	height: auto;
+}

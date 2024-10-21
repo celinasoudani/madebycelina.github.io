@@ -1,0 +1,146 @@
+
+
+.orangeBackground{
+
+background: #EBDED3;
+/*e53700*/
+height: 50px;
+
+}
+
+
+
+#headerImage {
+
+	position: relative;
+margin-left: 19%;
+	width: 1000px;
+
+
+}
+
+#headerImage2 {
+
+	position: relative;
+margin-left: 30%;
+	width: 680px;
+
+
+}
+
+
+#searchTitle {
+
+	font-family: helvetica;
+	font-size: 16px;
+	margin-left: 15%;
+}
+
+
+
+#menu {
+
+	width: 80%;
+	height: 50px;
+
+
+	position: relative;
+	left: 14%;
+
+
+}
+
+
+.menuitem {
+
+    text-align: center;
+    font-family: helvetica;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+  
+
+    background: #E5E5E5;
+    padding: 11px;
+    border-radius: 17px;
+    position: relative;
+ 
+}
+
+
+
+
+.bottomcontent {
+
+	width: 80%;
+	height: 360px;
+	margin-left: 14%;
+
+
+}
+
+
+
+#drone{
+
+height: 200px;
+
+
+}
+
+#title {
+
+	font-family: helvetica;
+	font-size: 12px;
+
+}
+
+#price{
+
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	color:#e53700;
+
+
+}
+
+.inside{
+
+display: inline-block;
+padding: 10px;
+margin-left: 10px;
+
+}
+
+
+#seeMore {
+	
+
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+    position: relative;
+    top: 8px;
+
+}
+
+#seeButton{
+
+	background: #e53700;
+    width: 241px;
+    height: 40px;
+    border-radius: 25px;
+	margin-left: 41%;
+}
+
+
+.footer {
+	margin: 0;
+    padding: 0;
+	width: 100%;
+	height: auto;
+}

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: Helvetica, “Trebuchet MS”, Arial;
+ font-size: 18px;
+ font-weight: normal;
+ font-style: normal;
+ background-color: #FFFAFA
+height: 2000px;
+ }
+
+
+.navigation{
+    width: 100%; 
+    height: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px; 
+}
+
+
+.blanketTwo, .blanketThree {
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: block;      /* Makes sure they behave as block elements */
+    clear: left;         /* Ensures each one starts on a new line */
+    margin-top: 40px;    /* Adds space between the stacked images */
+    margin-left: 40px;
+}
+
+
+#bodyContent {
+    width: 80%;
+    height: auto; /* Change height to auto to fit content */
+    margin-left: 80px; 
+    margin-right: 10%;
+    margin-top: 25px;
+    display: flex;           /* Use flexbox for alignment */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.arrow {
+    width: 40px;  /* Adjust size of the arrows */
+    height: auto;
+    margin-top: 22%;
+}
+
+
+#bodyImage {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    display: flex;          /* Use flex to center the image */
+    align-items: center;    /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+#bodyImage img {
+    width: 100%;            /* Make the image fill the container */
+    height: auto;           /* Maintain aspect ratio */
+}
+
+
+#bodyText {
+    width: 40%;
+    height: auto;          /* Change height to auto to fit content */
+    display: inline-block;
+    margin-left: 100px;     /* Space between the image and text */
+
+}
+
+#stars img {
+    width: 300px;      /* Set your desired width */
+    height: auto;     /* Maintain aspect ratio */
+    /* Alternatively, you can set height as well */
+    /* height: 50px; */
+}
+
+.circle-container {
+    display: flex;              /* Use flexbox to align circles in a row */
+    gap: 20px;                 /* Optional: Space between circles */
+}
+
+.circle {
+    width: 40px;              /* Set the width of each circle */
+    height: 40px;             /* Set the height of each circle */
+    border-radius: 50%;        /* Make the shape a circle */
+}
+
+.circle1 {
+    background-color: #CAB196; /* Green color */
+}
+
+.circle2 {
+    background-color: #C1D4A1; /* Blue color */
+}
+
+.circle3 {
+    background-color: #FFFFFF ; /* Orange color */
+   /* border: 4px;
+    border color: black; */
+}
+
+.rectangle {
+	width: 150px;              
+    height: 30px;            
+    border-radius: 4px;
+    border: 2px solid black;   
+    display: flex;              /* Use flexbox for centering text */
+    justify-content: center;    /* Center text horizontally */
+    align-items: center;         Center text vertically *
+}
+
+.cart-button{
+    background-color: #e4dac4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 450px;
+    height: 80px;
+}
+
+.cart-button:hover {
+    background-color: #b76e3c; /* Darker blue on hover */
+}
+
+/* Button Styles */
+.info{
+    background-color: #e4dac4; /* Blue background */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding for the button */
+    text-align: left; /* Align text to the left */
+    border: none;
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    width: 300px; /* Full width of parent */
+    margin-bottom: 10px; /* Space between buttons */
+    margin-left: 40px;
+    transition: background-color 0.3s ease; /* Smooth transition for background */
+}
+
+.info:hover {
+    background-color: #b76e3c; /* Darker blue on hover */
+}
+
+
+.recommendations-section {
+    margin-top: 50px;
+}
+
+.recommendations-section h2 {
+    margin-left: 40px;
+}
+ 
+.recommended-item p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.recommendations {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.recommended-item img {
+    width: 300px;
+    height: 300px;
+    margin: 0 30px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.recommended-item p {
+    text-align: center;
+    margin-top: 10px;
+}
+.arrowtwo
+{
+	width: 40px;  /* Adjust size of the arrows */
+    height: auto;
+    align-items: center;        /* Align items vertically centered */
+    margin-left: 80px;
+
+    position: relative;
+    top: -30px;
+}
+
+.footer{
+    width: 100%
+}

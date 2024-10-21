@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Your Cart </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+      <img src="images/header.png" alt="Header Image" class="header-image">
+    </header>
+
+    <main>
+
+        <section class="cart-section">
+    <h1>Your Shopping Cart</h1>
+    <br>
+    <h2>Products (1)</h2>
+    <br>
+    <!-- Flex container for cart items and order summary -->
+    <div class="cart-container">
+        
+        <!-- Cart Items Section -->
+        <div class="cart-items">
+            <div class="cart-item-box">
+                <div class="cart-item-image">
+                    <img src="images/blanket.png" alt="Fur throw blanket">
+                </div>
+                <div class="cart-item-details">
+                    <h3>Fur throw blanket</h3>
+                    <p>Color: white</p>
+                    <div class="cart-item-quantity">
+                        <button>-</button>
+                        <input type="text" value="1">
+                        <button>+</button>
+                    </div>
+                    <div class="cart-item-price">$18.50</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Summary Section -->
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <p><span>Subtotal:</span> <span>$18.50</span></p>
+            <p><span>Shipping:</span> <span>Free</span></p>
+            <p><span>GST/HST:</span> <span>$2.98</span></p>
+            <br>
+            <p><strong><span>Total:</span> <span>$21.28</span></strong></p>
+            <button class="checkout-button"> 
+                <h2> Checkout </h2>
+            </button>
+        </div>
+        
+    </div>
+</section>
+
+     <div class="additional-info">
+
+    <!-- Payment Terms and Conditions Section -->
+
+    <button class="info">Payment Terms and Conditions ▼ </button>
+
+    <div id="payment-info" class="info-content">
+
+
+    </div>
+
+
+
+    <!-- Return Policy Section -->
+
+    <button class="info">Return Policy ▼ </button>
+
+    <div id="return-info" class="info-content">
+
+    </div>
+
+</div> 
+
+           
+        <section class="recommendations-section">
+            <h2>Recommended for you:</h2>
+            <br>
+            <br>
+            <div class="recommendations">
+                 <img src="images/leftArrow.png" class="arrowtwo">
+                 <div class="recommended-item">
+                    <img src="images/others1.png" alt="Recommended blanket">
+                    <p>CA$ 20.3</p>
+                </div>
+                <div class="recommended-item">
+                    <img src="images/others2.png" alt="Recommended blanket">
+                    <p>CA$ 17.9</p>
+                </div>
+                <div class="recommended-item">
+                    <img src="images/others3.png" alt="Recommended blanket">
+                    <p>CA$ 27.5</p>
+                </div>
+                <img src="images/rightArrow.png" class="arrowtwo">
+            </div>
+        </section>
+    </main>
+
+<br>
+<br>
+<br>
+<br>
+
+    <footer>
+        <img src="images/footer.png" class=footer alt="Footer Image">
+    </footer>
+</body>
+</html>
